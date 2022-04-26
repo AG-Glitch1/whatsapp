@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Hurricane&family=Inspiration&family=Qahiri&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap');
+:root {
+    --color-1: #010101;
+    --color-2: #171717;
+    --color-22: #a8a8a8;
+    --color-3: #329ffc;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.container-header{
+    padding: 20px;
+    background-color: var(--color-2);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .head2{
+    font-size: 20px;
+    color: var(--color-3);
+}
+.content .head{
+    font-size: 25px;
+    color: white;
+}
+
+
+
+.sectaion-chats{
+    background-color: var(--color-1);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.content-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: var(--color-3);
+    font-weight: 500;
+    border-bottom: 1px solid var(--color-2);
+    cursor: pointer;
+}
+
+
+.archived{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    color: var(--color-22);
+    font-size: 20px;
+    border-bottom: 1px solid var(--color-2);
+}
+
+.archived i{
+    padding-right: 40px;
+}
+
+.content-c img{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.content-c{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid var(--color-2);
+}
+
+.content-c .text{
+    display: inline-block;
+    line-height: 0.4;
+}
+
+.content-c .text p{
+    color: var(--color-22);
+}
+
+.content-chats {
+    color: white;
+}
+
+
+
+
+
+.container-nav-bottom{
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: var(--color-2);
+}
+.sec{
+    margin: 11px auto auto auto;
+    color: #777;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.sec:hover{
+    color: var(--color-3);
+}
+.sec span{
+    position: absolute;
+    border: 3px solid red;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: 900;
+    top: 5%;
+}
+
+.sec a{
+    display: block;
+    margin: 16px auto auto auto;
+    color: #777;
+}
